@@ -1,1 +1,11 @@
+-------------------------Project 1 implemented in C using MPI---------------------------------------------------------------------------
+Part A: FIND MAX
+a) Parallelize the task of finding Find Max of numbers with  MPI implementation in which a master process reads in the entire input file and then dispatches pieces of it to workers, which these pieces being of as equal size as possible. The master also performs computation. Each processor computes a local max and results are then collected by the master. Master then finds the real max value from the local max values. This implementation does not contain collective communications, but only point-to-point.
+b) Perform the above task with collective communications
+
+Part B: IMAGE SMOOTHING
+Image smoothing is done by convolution of the image by a kernel. The kernel is moved on the image and finds each pixel value after the smoothing operation. The input matrix which is square is stored in 'image.txt' whose first line gives the number of rows. After smoothing is done you have to multiply the resulting matrix with the 1/(sum of kernel values.).The program writes the resulting matrix to the output file in the same format as the input without dimension.
+a) Serial program which solves this problem. 
+b) MPI implementation of the above program in which a master process reads in the entire input file and then dispatches rows of it to workers, which these rows being of as equal size as possible. The master must also perform computation. Each processor makes the
+computation for its rows and results are then collected by the master. This implementation doesn't use any collective communications, but only point-to-point. Zero padding is used for the image borders. Neighbour rows are also send for the borders of row patches. 
 
