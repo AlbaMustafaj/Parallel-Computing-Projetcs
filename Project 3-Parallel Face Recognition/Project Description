@@ -1,0 +1,14 @@
+Training Step:
+For each image in the dataset,  the following steps are applied:
+• For each pixel in an i m a g e ,  pixel are compared with its 8 neighbors (on its left-top, leftmiddle,
+left-bottom, right-top, etc.). 
+• Where the center pixel's value is less than the neighbor's value, "1". Otherwise,  "0".
+• Value is converted into a decimal value.
+• Histogram is computed, over the pixels, of the frequency of each "number" occurring (i.e.,
+each combination of which pixels are smaller and which are greater than the center).
+
+Test Step:
+• Histogram for the test image are generated as described previously.
+• Distance values between test image's histogram and training histograms are computed.
+• Closest training histogram to determine the person is selected.
+• Results are displayed
