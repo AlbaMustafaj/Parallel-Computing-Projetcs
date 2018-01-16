@@ -1,0 +1,9 @@
+
+Angle between Two Vectors on GPU: A  program to find the angle between two vectors
+using both CPU and GPU implementation will be implemented. Execution times of CPU code 
+and GPU code will be compared.
+
+Array generator code which will create two integer arrays with N
+elements. 
+Firstly CPU code to find the angle between 2 vectors is implemented.
+Secondly, parallel GPU code to find the angle between 2 vectors is implemented.
