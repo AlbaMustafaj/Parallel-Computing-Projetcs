@@ -1,0 +1,10 @@
+In this project, a parallel document search system is implemented. The algorithm 
+implement is similar to Supervised Search. In this system, each document is represented
+with a weight vector . A weight vector is composed of number of elements such that each 
+of the weight values corresponds to the relationship between the file and word in our
+dictionary, and is the dictionary size is only an integer here, we do not have an actual dictionary.
+Queries to the system are insterted to the system. A query has same vector definition as a document
+vector . Finally, the program takes as input and will give top related documents as output
+according to given similarity function. Set of files will be given as an input file to your system. 
+Each line of the input file contains id of document, consecutive integers which are seperated by 
+a single space. Computatonal time for sequential and parallel time is displayed.
