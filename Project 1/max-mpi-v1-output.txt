@@ -1,0 +1,10 @@
+Before checking Core: 0
+Core 0 starting calculations
+File is read   !
+Elements that each core should process is 1500
+Sending from master to others
+Finding max of master data
+Receiving from all processors to master
+Before checking Core: 1
+Receiving to all processors from master
+Maximum is 1000Time elapsed is 0.001418 

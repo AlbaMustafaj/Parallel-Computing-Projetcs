@@ -1,0 +1,9 @@
+Before checking Core:0
+File is read   !
+Number of elements is 3000
+The max is 1000
+ Time elapsed:  0.001460
+Before checking Core:1
+Finding max in all to all reduce
+The max is 1000
+ Time elapsed:  0.001457
