@@ -12,3 +12,10 @@ Part B: IMAGE SMOOTHING
 ----Project 2 implemented in C using MPI-----
 
 In this project, a parallel document search system is implemented.
+
+
+----Project 3 implemented in C++ using OpenMP-----
+In this project,  parallel face recognition algorithm using idea of Local Binary
+Patterns is implemented.
+Local Binary Patterns is a simple but effective idea in texture analysis. 
+It is also used for face recognition and gesture recognition applications.
